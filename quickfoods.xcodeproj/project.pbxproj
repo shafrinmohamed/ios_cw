@@ -15,6 +15,21 @@
 		32973F20298E396C00ACFACE /* quickfoodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F1F298E396C00ACFACE /* quickfoodsTests.swift */; };
 		32973F2A298E396C00ACFACE /* quickfoodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F29298E396C00ACFACE /* quickfoodsUITests.swift */; };
 		32973F2C298E396C00ACFACE /* quickfoodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F2B298E396C00ACFACE /* quickfoodsUITestsLaunchTests.swift */; };
+		32973F3C298E601D00ACFACE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F3B298E601D00ACFACE /* SignInViewController.swift */; };
+		32973F3E298E603800ACFACE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F3D298E603800ACFACE /* SignUpViewController.swift */; };
+		32973F40298E60A200ACFACE /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F3F298E60A200ACFACE /* FoodViewController.swift */; };
+		32973F42298E60CC00ACFACE /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F41298E60CC00ACFACE /* FoodDetailViewController.swift */; };
+		32973F45298E615900ACFACE /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F44298E615900ACFACE /* DatabaseManager.swift */; };
+		32973F47298E617100ACFACE /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F46298E617100ACFACE /* AuthManager.swift */; };
+		32973F49298EAA0E00ACFACE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32973F48298EAA0E00ACFACE /* GoogleService-Info.plist */; };
+		32973F4B298EAF5B00ACFACE /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F4A298EAF5B00ACFACE /* StorageManager.swift */; };
+		32973F4D298EB30200ACFACE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F4C298EB30200ACFACE /* User.swift */; };
+		32973F59298F7B2200ACFACE /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F58298F7B2200ACFACE /* FoodModel.swift */; };
+		32973F5B29900CB000ACFACE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F5A29900CB000ACFACE /* ProfileViewController.swift */; };
+		32973F5D29900E6200ACFACE /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F5C29900E6200ACFACE /* TabBarViewController.swift */; };
+		32973F5F2990129400ACFACE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F5E2990129400ACFACE /* Extensions.swift */; };
+		32973F612990132700ACFACE /* SignInHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32973F602990132700ACFACE /* SignInHeaderViewController.swift */; };
+		7C04B7B4266828285BD82F93 /* Pods_quickfoods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA4BB4EE3FEF32DE7DAC570 /* Pods_quickfoods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CA4BB4EE3FEF32DE7DAC570 /* Pods_quickfoods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quickfoods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D73477F5B08026A198978A /* Pods-quickfoods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quickfoods.debug.xcconfig"; path = "Target Support Files/Pods-quickfoods/Pods-quickfoods.debug.xcconfig"; sourceTree = "<group>"; };
 		32973F05298E396400ACFACE /* quickfoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quickfoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32973F08298E396400ACFACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32973F0A298E396400ACFACE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +64,21 @@
 		32973F25298E396C00ACFACE /* quickfoodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quickfoodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32973F29298E396C00ACFACE /* quickfoodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickfoodsUITests.swift; sourceTree = "<group>"; };
 		32973F2B298E396C00ACFACE /* quickfoodsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickfoodsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32973F3B298E601D00ACFACE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		32973F3D298E603800ACFACE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		32973F3F298E60A200ACFACE /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		32973F41298E60CC00ACFACE /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		32973F44298E615900ACFACE /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		32973F46298E617100ACFACE /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		32973F48298EAA0E00ACFACE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Volumes/VMware Shared Folders/ios vm shared/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32973F4A298EAF5B00ACFACE /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		32973F4C298EB30200ACFACE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		32973F58298F7B2200ACFACE /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		32973F5A29900CB000ACFACE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		32973F5C29900E6200ACFACE /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		32973F5E2990129400ACFACE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		32973F602990132700ACFACE /* SignInHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInHeaderViewController.swift; sourceTree = "<group>"; };
+		876505ABB6361FCB9E01BA39 /* Pods-quickfoods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quickfoods.release.xcconfig"; path = "Target Support Files/Pods-quickfoods/Pods-quickfoods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C04B7B4266828285BD82F93 /* Pods_quickfoods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +114,8 @@
 				32973F1E298E396C00ACFACE /* quickfoodsTests */,
 				32973F28298E396C00ACFACE /* quickfoodsUITests */,
 				32973F06298E396400ACFACE /* Products */,
+				508D7C4887FEE8F265F9A700 /* Pods */,
+				79717074F0979322154D6AD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +132,18 @@
 		32973F07298E396400ACFACE /* quickfoods */ = {
 			isa = PBXGroup;
 			children = (
+				32973F3A298E5F7D00ACFACE /* Models */,
+				32973F39298E5F7300ACFACE /* Controllers */,
+				32973F38298E5F3000ACFACE /* Views */,
 				32973F08298E396400ACFACE /* AppDelegate.swift */,
 				32973F0A298E396400ACFACE /* SceneDelegate.swift */,
-				32973F0C298E396400ACFACE /* ViewController.swift */,
 				32973F11298E396C00ACFACE /* Assets.xcassets */,
-				32973F13298E396C00ACFACE /* LaunchScreen.storyboard */,
+				32973F48298EAA0E00ACFACE /* GoogleService-Info.plist */,
 				32973F16298E396C00ACFACE /* Info.plist */,
+				32973F44298E615900ACFACE /* DatabaseManager.swift */,
+				32973F46298E617100ACFACE /* AuthManager.swift */,
+				32973F4A298EAF5B00ACFACE /* StorageManager.swift */,
+				32973F5E2990129400ACFACE /* Extensions.swift */,
 			);
 			path = quickfoods;
 			sourceTree = "<group>";
@@ -124,6 +165,55 @@
 			path = quickfoodsUITests;
 			sourceTree = "<group>";
 		};
+		32973F38298E5F3000ACFACE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32973F13298E396C00ACFACE /* LaunchScreen.storyboard */,
+				32973F602990132700ACFACE /* SignInHeaderViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32973F39298E5F7300ACFACE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32973F0C298E396400ACFACE /* ViewController.swift */,
+				32973F3F298E60A200ACFACE /* FoodViewController.swift */,
+				32973F3B298E601D00ACFACE /* SignInViewController.swift */,
+				32973F3D298E603800ACFACE /* SignUpViewController.swift */,
+				32973F41298E60CC00ACFACE /* FoodDetailViewController.swift */,
+				32973F5A29900CB000ACFACE /* ProfileViewController.swift */,
+				32973F5C29900E6200ACFACE /* TabBarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		32973F3A298E5F7D00ACFACE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32973F4C298EB30200ACFACE /* User.swift */,
+				32973F58298F7B2200ACFACE /* FoodModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		508D7C4887FEE8F265F9A700 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30D73477F5B08026A198978A /* Pods-quickfoods.debug.xcconfig */,
+				876505ABB6361FCB9E01BA39 /* Pods-quickfoods.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79717074F0979322154D6AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CA4BB4EE3FEF32DE7DAC570 /* Pods_quickfoods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,15 +221,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32973F2F298E396C00ACFACE /* Build configuration list for PBXNativeTarget "quickfoods" */;
 			buildPhases = (
+				A841503BA869390769373674 /* [CP] Check Pods Manifest.lock */,
 				32973F01298E396400ACFACE /* Sources */,
 				32973F02298E396400ACFACE /* Frameworks */,
 				32973F03298E396400ACFACE /* Resources */,
+				BF892A6F682FE0020A51366F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = quickfoods;
+			packageProductDependencies = (
+			);
 			productName = quickfoods;
 			productReference = 32973F05298E396400ACFACE /* quickfoods.app */;
 			productType = "com.apple.product-type.application";
@@ -212,6 +306,8 @@
 				Base,
 			);
 			mainGroup = 32973EFC298E396400ACFACE;
+			packageReferences = (
+			);
 			productRefGroup = 32973F06298E396400ACFACE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -230,6 +326,7 @@
 			files = (
 				32973F15298E396C00ACFACE /* LaunchScreen.storyboard in Resources */,
 				32973F12298E396C00ACFACE /* Assets.xcassets in Resources */,
+				32973F49298EAA0E00ACFACE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,14 +346,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A841503BA869390769373674 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quickfoods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF892A6F682FE0020A51366F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quickfoods/Pods-quickfoods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quickfoods/Pods-quickfoods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quickfoods/Pods-quickfoods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32973F01298E396400ACFACE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32973F45298E615900ACFACE /* DatabaseManager.swift in Sources */,
+				32973F47298E617100ACFACE /* AuthManager.swift in Sources */,
+				32973F3C298E601D00ACFACE /* SignInViewController.swift in Sources */,
+				32973F59298F7B2200ACFACE /* FoodModel.swift in Sources */,
+				32973F5D29900E6200ACFACE /* TabBarViewController.swift in Sources */,
+				32973F42298E60CC00ACFACE /* FoodDetailViewController.swift in Sources */,
+				32973F612990132700ACFACE /* SignInHeaderViewController.swift in Sources */,
 				32973F0D298E396400ACFACE /* ViewController.swift in Sources */,
 				32973F09298E396400ACFACE /* AppDelegate.swift in Sources */,
 				32973F0B298E396400ACFACE /* SceneDelegate.swift in Sources */,
+				32973F4B298EAF5B00ACFACE /* StorageManager.swift in Sources */,
+				32973F5F2990129400ACFACE /* Extensions.swift in Sources */,
+				32973F40298E60A200ACFACE /* FoodViewController.swift in Sources */,
+				32973F5B29900CB000ACFACE /* ProfileViewController.swift in Sources */,
+				32973F3E298E603800ACFACE /* SignUpViewController.swift in Sources */,
+				32973F4D298EB30200ACFACE /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +574,7 @@
 		};
 		32973F30298E396C00ACFACE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D73477F5B08026A198978A /* Pods-quickfoods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +604,7 @@
 		};
 		32973F31298E396C00ACFACE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876505ABB6361FCB9E01BA39 /* Pods-quickfoods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
